@@ -2,6 +2,7 @@
 import java.util.Scanner;
   public class Main {  
   public static void main(String[] args) {
+  for(int i =0; i < 2; i++){	  
   Scanner scanner = new Scanner(System.in);
   System.out.print("g’·(cm)=");
   double height = scanner.nextDouble() / 100;
@@ -13,5 +14,6 @@ import java.util.Scanner;
   String sv = String.format("%.2f", v1);
   double v2 = Double.parseDouble(sv);
   System.out.println("BMI‚ð¬”“_‘æ“ñˆÊ‚É•\‚·‚Æ="+v2);
+  }
   }
 }
